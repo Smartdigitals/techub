@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TECHUB</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">TECHUB</div>
+        <ul>
+            <li><a href="{% url 'home' %}">Home</a></li>
+            <li><a href="{% url 'about' %}">About</a></li>
+            <li><a href="{% url 'contact' %}">Contact</a></li>
+            <li><a href="{% url 'team' %}">Team</a></li>
+        </ul>
+        <div class="register">
+            <div class="reg sign"><a href="{% url 'signup' %}">Sign up</a></div>
+            <div class="reg login"><a href="{% url 'login' %}">Login</a></div>
+        </div>
+        <div class="burger">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <div class="hero">
+        <div class="one">
+            <h1>YOUR HOME <br>
+            FOR TECH <br>
+            UPDATES</h1>
+            <p>Python, Django, Dart, C++, C#, Ruby, TECHUB is your home for
+                updated tech news
+            </p>
+        </div>
+        <div class="two">
+            <img src="tech.png" width="100%" alt="tech">
+        </div>
+    </div>
+    <div class="sect">
+        <h1>BLOG POSTS</h1>
+    <div class="div article">
+        <div class="artone">
+            <div class="card">
+                <div class="contain">
+                <h2 class="head">This is a Card</h2>
+                <p class="title">This is the small text</p>
+                <p class="btn2"><button>Click Here</button></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="contain">
+                <h2 class="head">This is a Card</h2>
+                <p class="title">This is the small text</p>
+                <p class="btn2"><button>Click Here</button></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="contain">
+                <h2 class="head">This is a Card</h2>
+                <p class="title">This is the small text</p>
+                <p class="btn2"><button>Click Here</button></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="contain">
+                <h2 class="head">This is a Card</h2>
+                <p class="title">This is the small text</p>
+                <p class="btn2"><button>Click Here</button></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="contain">
+                <h2 class="head">This is a Card</h2>
+                <p class="title">This is the small text</p>
+                <p class="btn2"><button>Click Here</button></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="contain">
+                <h2 class="head">This is a Card</h2>
+                <p class="title">This is the small text</p>
+                <p class="btn2"><button>Click Here</button></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="contain">
+                <h2 class="head">This is a Card</h2>
+                <p class="title">This is the small text</p>
+                <p class="btn2"><button>Click Here</button></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="contain">
+                <h2 class="head">This is a Card</h2>
+                <p class="title">This is the small text</p>
+                <p class="btn2"><button>Click Here</button></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="contain">
+                <h2 class="head">This is a Card</h2>
+                <p class="title">This is the small text</p>
+                <p class="btn2"><button>Click Here</button></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="contain">
+                <h2 class="head">This is a Card</h2>
+                <p class="title">This is the small text</p>
+                <p class="btn2"><button>Click Here</button></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="contain">
+                <h2 class="head">This is a Card</h2>
+                <p class="title">This is the small text</p>
+                <p class="btn2"><button>Click Here</button></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="contain">
+                <h2 class="head">This is a Card</h2>
+                <p class="title">This is the small text</p>
+                <p class="btn2"><button>Click Here</button></p>
+                </div>
+            </div>
+        </div>
+        <div class="arttwo">
+            <p>
+                <img src="" alt="" class="art">
+            </p>
+            <h4>Digtal Art Library Project</h4>
+            <p>People involved</p>
+            <p>Fredrick</p>
+            <p>Somzy</p>
+            <p>Emmy</p>
+            <p>Ifeanyi</p>
+            <p>Youngcliff</p>
+        </div>
+    </div>
+    </div>
+<footer>
+    <div class="foot">
+        <div class="ft">
+            <h2>TECHUB</h2>
+            <li><a href="{% url 'home' %}">Home</a></li>
+            <li><a href="{% url 'about' %}">About</a></li>
+            <li><a href="{% url 'contact' %}">Contact</a></li>
+            <li><a href="{% url 'team' %}">Team</a></li>
+        </div>
+        <div class="ft">
+            <form action="">
+            <li><input type="text" placeholder="newsletter"></li>
+            <li><input type="submit" value="Subscribe"></li>
+            </form>
+        </div>
+        <div class="ft">
+            <p>Email: info@techub.com.ng</p>
+            <p>Phone: 080</p>
+            <p>Whatsapp: 080</p>
+            <p>Address: Digital Art Library</p>
+        </div>
+    </div>
+    &copy TECHUB
+</footer>
+
+
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/90cba6281e.js" crossorigin="anonymous"></script>
+</body>
+</html>
